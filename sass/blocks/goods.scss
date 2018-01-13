@@ -1,0 +1,33 @@
+.goods {
+  width: 100%;
+  .goods__title {
+    width: 540px;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .goods__description {
+    width: 305px;
+    color: $font-color;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .goods__parameters {
+    color: $font-color;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .goods__order {
+    color: $font-color;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .goods__order-title {
+    line-height: 24px;
+  }
+}
