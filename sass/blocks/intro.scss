@@ -1,0 +1,75 @@
+.intro {
+  width: 100%;
+  background-color: $background-grey;
+  .intro__wrapper {
+    width: $desktop-width;
+    margin: 0 auto;
+    background: url("../../img/hero-desktop.jpg") no-repeat -99px 0px;
+  }
+  .intro__nav {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+
+  .intro__list {
+    width: 315px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+  }
+
+  .intro__order {
+    font-weight: 400;
+    color: $font-color;
+  }
+
+  .intro__title {
+    width: 630px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 57px;
+    margin: 0 auto;
+    padding-bottom: 358px;
+  }
+
+  .intro__goods {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .intro__goods-link {
+    display: block;
+    width: 50%;
+  }
+
+  .intro__goods-link {
+    padding-top: 9px;
+    padding-left: 35px;
+    color: white;
+    padding-bottom: 29px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  .intro__goods-link--furniture {
+    background-color: $furniture-color;
+  }
+
+  .intro__goods-link--toys {
+    background-color: $toys-color;
+  }
+
+  .intro__goods-title {
+    width: 115px;
+  }
+}
